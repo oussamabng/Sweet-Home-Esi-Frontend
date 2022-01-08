@@ -13,8 +13,8 @@ const Auth = () => {
   }
 
   return (
-    <div className="sweet-auth  flex justify-start items-center relative">
-      <div className="flex flex-col my-20 mx-56 justify-end  ">
+    <div className="sweet-auth flex justify-start items-center relative">
+      <div className="flex flex-col my-40 mx-48 justify-end">
         <h1 className="text-5xl my-10 font-sans text-black font-extrabold leading-tight">
           The sweetest way to
           <br />
@@ -28,7 +28,10 @@ const Auth = () => {
         { active ? <Login /> : <Register /> }
         </div>
       </div>
-      <img src={SweetImage} alt="Sweet-Home" className="w-3/6 absolute right-0 top-0 " />
+      <img src={SweetImage} alt="Sweet-Home" className="absolute right-0" style={{
+        width:"51%",
+        top:"-8%"
+      }} />
     </div>
   );
 };
