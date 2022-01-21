@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       colors:{
         purple:'#554269',
+        grey:'#C0C0C0',
         'purple-dark':'#554269',
         'white-light':'#fefefe',
         green:'#4caf50',
@@ -19,11 +20,12 @@ module.exports = {
         blue: '#3bade3',
         pink:'#ff357f;',
         'purple-light':'#576fe6;',
-      }
+      },
     },
     textColor: (theme) => ({
       ...theme('colors'),
       purple:'#554269',
+      grey:'#C0C0C0',
       blue: '#3bade3',
       'white-light':'#fefefe',
       green:'#4caf50',

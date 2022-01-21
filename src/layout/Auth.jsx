@@ -13,8 +13,8 @@ const Auth = () => {
   }
 
   return (
-    <div className="sweet-auth flex justify-center xl:justify-between xl:items-end md:items-end  relative">
-      <div className="flex flex-col m-0 xl:my-20 xl:mx-16 lg:mx-16 lg:my-0  justify-end">
+    <div className="sweet-auth flex justify-center xl:justify-between sm:items-center items-end relative">
+      <div className="flex flex-col m-0 xl:my-16 xl:mx-16 lg:mx-16 lg:my-0  justify-end">
         <h1 className="xl:text-5xl text-3xl  md:text-4xl  my-10 font-sans text-black font-extrabold leading-tight">
           The sweetest way to
           <br />

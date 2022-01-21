@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.sweet-routine{
+  height: 600px;
+  background-position: top;
+  background-size: cover;
+}
 #nprogress .bar {
   background: #554269 !important;
 }
@@ -9,4 +14,22 @@
   .sweet-auth img{
     display: none!important;
   }
+  .sweet-routine{
+    background-position: 90%!important;
+  }
+}
+.font-source{
+  font-family: 'Source Sans Pro', sans-serif!important;
+}
+.font-roboto{
+  font-family: 'Roboto', sans-serif;
+}
+.toggle-checkbox:checked {
+  @apply: right-0 border-green-400;
+  right: 0;
+  border-color: #ff9248;
+}
+.toggle-checkbox:checked + .toggle-label {
+  @apply: bg-green-400;
+  background-color: #ff9248;
 }

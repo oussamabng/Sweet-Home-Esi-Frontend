@@ -3,6 +3,8 @@ import Page from "../components/Page";
 import Header from "../layout/Header";
 import Auth from "../layout/Auth";
 import Functions from '../layout/Functions';
+import Features from '../layout/Features';
+import Footer from '../layout/Footer';
 
 const Home = () => {
   return (
@@ -10,6 +12,8 @@ const Home = () => {
       <Header />
       <Auth />
       <Functions />
+      <Features />
+      <Footer />
     </Page>
   );
   
