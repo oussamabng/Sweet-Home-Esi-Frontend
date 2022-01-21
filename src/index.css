@@ -5,4 +5,8 @@
 #nprogress .bar {
   background: #554269 !important;
 }
-
+@media(max-width: 800px){
+  .sweet-auth img{
+    display: none!important;
+  }
+}

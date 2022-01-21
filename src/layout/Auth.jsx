@@ -13,14 +13,14 @@ const Auth = () => {
   }
 
   return (
-    <div className="sweet-auth flex justify-start items-center relative">
-      <div className="flex flex-col my-40 mx-48 justify-end">
-        <h1 className="text-5xl my-10 font-sans text-black font-extrabold leading-tight">
+    <div className="sweet-auth flex justify-center xl:justify-between xl:items-end md:items-end  relative">
+      <div className="flex flex-col m-0 xl:my-20 xl:mx-16 lg:mx-16 lg:my-0  justify-end">
+        <h1 className="xl:text-5xl text-3xl  md:text-4xl  my-10 font-sans text-black font-extrabold leading-tight">
           The sweetest way to
           <br />
            control your home!
         </h1>
-        <div className="sweet-form w-100">
+        <div className="sweet-form w-100 mb-8">
           <div className="flex">
             <p onClick={handleActiveItem} className={active ? activeStyle : secondaryStyle}>Login</p>
             <p onClick={handleActiveItem} className={!active ? activeStyle : secondaryStyle}>Register</p>
@@ -28,10 +28,7 @@ const Auth = () => {
         { active ? <Login /> : <Register /> }
         </div>
       </div>
-      <img src={SweetImage} alt="Sweet-Home" className="absolute right-0" style={{
-        width:"51%",
-        top:"-8%"
-      }} />
+      <img src={SweetImage} alt="Sweet-Home" className="img-fluid xl:block w-1/2 lg:w-3/6 md:h-2/6" />
     </div>
   );
 };
